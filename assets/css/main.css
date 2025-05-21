@@ -37,11 +37,11 @@ h6 {
 /* #endregion */
 
 /* #region Header */
-header {
+#globalHeader {
   position: relative;
 }
 
-header h1 {
+#globalHeader h1 {
   position: absolute;
   left: 0;
   right: 10;
@@ -53,7 +53,7 @@ header h1 {
   padding: 1rem;
 }
 
-header img {
+#globalHeader img {
   min-width: 896px;
   width: 100%;
   height: auto;
